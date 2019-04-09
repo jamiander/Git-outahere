@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lobster');
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, li, aside, footer, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+body {
+  background-color: #FDC57B;
+  font-family: "Dancing Script", bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #637056;
+}
+
+.hero-text {
+  padding-top: 125px;
+  width: 50%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+}
+.hero {
+  height: 600px;
+  background: url("../images/hero.jpg") no-repeat center top;
+  background-size: cover;
+  font-family: 'Lobster', bold;
+}
+
+.hero h1 {
+  color: #62374E;
+}
+
+.hero h2 {
+  color: #007880;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #EE4266;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 75% auto;
+}
+
+.drinks img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  float: left;
+  }
+
+.drinks ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.drinks li {
+  border-top: 1px dotted #A06EE1;
+  display: block;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  font-size: 2em;
+}
+
+.drinks h2 {
+font-family: "Lobster", bold;
+font-size: 2em;
+margin: 5px;
+text-align: center;
+}
+
+.drinks li h3 {
+  font-family: "Lobster", bold;
+  font-size: 1em;
+}
+
+.sidebar {
+  background-color: #DBE987;
+  font-size: 1.5em;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li + li {
+  margin-top: 50px;
+}
+
+.sidebar h2 {
+  font-family: "Lobster", bold;
+  border-bottom: 1px dotted #A06EE1;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  }
+
+nav {
+  background-color: #FFE0A3;
+  border-bottom: 5px solid #421b9b;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #d88731;
+}
+
+nav a {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+nav li {
+  padding: 2px;
+  display: inline;
+  padding: 50px;
+}
+
+footer {
+  background-color: #FFA1AC;
+  border-top: 5px solid #421b9b;
+  height: 100px;
+}
+
+footer p {
+  color: #FFF6BE;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  padding-left: 2px;
+  padding-right: 10px;
+}
+
+footer li {
+  display: inline;
+  padding-left: 60px;
+}
+
+footer a:hover {
+  background-color: #d88731;
+}
